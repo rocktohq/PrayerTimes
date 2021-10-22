@@ -1,0 +1,4 @@
+#URL will be yoursitelink/cityname.html #
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*)\.html$ index.php?city=$1
