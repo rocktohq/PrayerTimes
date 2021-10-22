@@ -120,7 +120,7 @@
                                         <tr>
                                             <td><?php echo $prayerTimes->ipcity; ?></td>
                                             <td><?php echo $prayerTimes->country; ?> 
-                                            <img src="flag/<?php echo strtolower($prayerTimes->countrycode); ?>.png"></td>
+                                            <img src="<?php echo $sitelink; ?>flag/<?php echo strtolower($prayerTimes->countrycode); ?>.png"></td>
                                             <td><?php echo $prayerTimes->timezone; ?></td>
                                         </tr>
                                     </tbody>
@@ -178,7 +178,7 @@
                                         <tr>
                                             <td><?php echo $prayerTimes->mycity; ?></td>
                                             <td><?php echo $prayerTimes->country; ?> 
-                                            <img src="flag/<?php echo strtolower($prayerTimes->countrycode); ?>.png"></td>
+                                            <img src="<?php echo $sitelink; ?>flag/<?php echo strtolower($prayerTimes->countrycode); ?>.png"></td>
                                             <td><?php echo $prayerTimes->timezone; ?></td>
                                         </tr>
                                     </tbody>
